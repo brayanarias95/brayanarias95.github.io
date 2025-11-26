@@ -37,10 +37,10 @@
                         prácticas de la industria.
                     </p>
                     <div class="cta-buttons">
-                        <a href="https://www.linkedin.com/in/brayanarias95/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        <a href="https://www.linkedin.com/in/brayanarias95/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" aria-label="Ver perfil de LinkedIn de Brayan Arias">
                             🔗 LinkedIn
                         </a>
-                        <a href="#contacto" class="btn btn-outline">
+                        <a href="#contacto" class="btn btn-outline" aria-label="Ir a la sección de contacto">
                             📧 Contáctame
                         </a>
                     </div>
@@ -119,9 +119,9 @@
                             <span class="tech-tag">OAuth2</span>
                             <span class="tech-tag">JWT</span>
                         </div>
-                        <a href="#" class="project-link">
+                        <span class="project-link" aria-label="Enlace disponible próximamente">
                             Ver más →
-                        </a>
+                        </span>
                     </div>
                 </div>
 
@@ -143,9 +143,9 @@
                             <span class="tech-tag">AWS</span>
                             <span class="tech-tag">Microservicios</span>
                         </div>
-                        <a href="#" class="project-link">
+                        <span class="project-link" aria-label="Enlace disponible próximamente">
                             Ver más →
-                        </a>
+                        </span>
                     </div>
                 </div>
 
@@ -167,9 +167,9 @@
                             <span class="tech-tag">Binance API</span>
                             <span class="tech-tag">WebSockets</span>
                         </div>
-                        <a href="#" class="project-link">
+                        <span class="project-link" aria-label="Enlace disponible próximamente">
                             Ver más →
-                        </a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -207,27 +207,5 @@
         </div>
     </footer>
 
-    <!-- Scroll Animation Script -->
-    <script>
-        // Simple scroll animation
-        document.addEventListener('DOMContentLoaded', function() {
-            const observerOptions = {
-                threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
-            };
-
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                    }
-                });
-            }, observerOptions);
-
-            document.querySelectorAll('.animate-on-scroll').forEach(el => {
-                observer.observe(el);
-            });
-        });
-    </script>
 </body>
 </html>
