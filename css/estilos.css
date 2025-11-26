@@ -146,9 +146,11 @@ body {
   height: 320px;
   border-radius: 50%;
   object-fit: cover;
-  border: 6px solid var(--background-white);
-  box-shadow: var(--shadow-xl);
+  object-position: 60% 30%;
+  border: 8px solid var(--background-white);
+  box-shadow: var(--shadow-xl), 0 0 0 2px var(--border-color);
   transition: transform var(--transition-medium);
+  display: block;
 }
 
 .profile-photo:hover {
