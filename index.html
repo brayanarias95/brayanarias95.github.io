@@ -1,19 +1,211 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Brayan Arias - Desarrollador de Software especializado en Java Reactivo, Elixir, Python, SQL y AWS">
+    <meta name="author" content="Brayan Arias">
+    <title>Brayan Arias | Desarrollador de Software</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <div id="container">
-        <div id="cabecera">
-            Brayan Arias
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">BA</a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
         </div>
-        
-    </div>
-    
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Brayan Arias</h1>
+                    <p class="subtitle">Desarrollador de Software Senior</p>
+                    <p class="summary">
+                        Desarrollador apasionado con experiencia en arquitecturas reactivas, 
+                        sistemas distribuidos y soluciones cloud. Especializado en construir 
+                        aplicaciones escalables y de alto rendimiento utilizando las mejores 
+                        prácticas de la industria.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="https://www.linkedin.com/in/brayanarias95/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" aria-label="Ver perfil de LinkedIn de Brayan Arias">
+                            🔗 LinkedIn
+                        </a>
+                        <a href="#contacto" class="btn btn-outline" aria-label="Ir a la sección de contacto">
+                            📧 Contáctame
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Reemplaza este div con tu foto profesional -->
+                    <!-- <img src="img/foto-profesional.jpg" alt="Brayan Arias" class="profile-photo"> -->
+                    <div class="photo-placeholder">
+                        <span>👨‍💻</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tecnologías & Skills</h2>
+                <p>Las herramientas y tecnologías que utilizo para crear soluciones innovadoras</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-icon skill-java">☕</span>
+                    <h3>Java Reactivo</h3>
+                    <p>Spring WebFlux, Project Reactor, aplicaciones no bloqueantes y altamente escalables</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon skill-elixir">💧</span>
+                    <h3>Elixir</h3>
+                    <p>Phoenix Framework, OTP, sistemas distribuidos y tolerantes a fallos</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon skill-python">🐍</span>
+                    <h3>Python</h3>
+                    <p>Django, FastAPI, automatización, análisis de datos y scripting</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon skill-sql">🗄️</span>
+                    <h3>SQL</h3>
+                    <p>PostgreSQL, MySQL, diseño de bases de datos y optimización de consultas</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon skill-aws">☁️</span>
+                    <h3>AWS</h3>
+                    <p>EC2, Lambda, S3, RDS, arquitecturas serverless y cloud-native</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="proyectos">
+        <div class="container">
+            <div class="section-title">
+                <h2>Proyectos Destacados</h2>
+                <p>Algunos de los proyectos más relevantes en los que he trabajado</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Authentication Project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🔐 Sistema de Autenticación</h3>
+                        <span class="project-type">Backend / Seguridad</span>
+                    </div>
+                    <div class="project-body">
+                        <p>
+                            Sistema robusto de autenticación y autorización con soporte para 
+                            OAuth2, JWT y autenticación multifactor. Diseñado para alta 
+                            disponibilidad y seguridad empresarial.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Security</span>
+                            <span class="tech-tag">OAuth2</span>
+                            <span class="tech-tag">JWT</span>
+                        </div>
+                        <span class="project-link" aria-label="Enlace disponible próximamente">
+                            Ver más →
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Loan System Project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>💰 Sistema de Préstamos</h3>
+                        <span class="project-type">Fintech / Full Stack</span>
+                    </div>
+                    <div class="project-body">
+                        <p>
+                            Plataforma completa de gestión de préstamos con evaluación automática 
+                            de riesgo, integración con bureaus de crédito y generación de reportes 
+                            en tiempo real.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java Reactivo</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Microservicios</span>
+                        </div>
+                        <span class="project-link" aria-label="Enlace disponible próximamente">
+                            Ver más →
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Binance Bot Project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>🤖 Bot para Binance</h3>
+                        <span class="project-type">Trading / Automatización</span>
+                    </div>
+                    <div class="project-body">
+                        <p>
+                            Bot de trading automatizado para criptomonedas con estrategias 
+                            personalizables, análisis técnico en tiempo real y gestión 
+                            inteligente de riesgos.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Elixir</span>
+                            <span class="tech-tag">Binance API</span>
+                            <span class="tech-tag">WebSockets</span>
+                        </div>
+                        <span class="project-link" aria-label="Enlace disponible próximamente">
+                            Ver más →
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacto</h2>
+                <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <a href="mailto:brayanarias95@gmail.com">brayanarias95@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <a href="https://www.linkedin.com/in/brayanarias95/" target="_blank" rel="noopener noreferrer">
+                            linkedin.com/in/brayanarias95
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Brayan Arias. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
